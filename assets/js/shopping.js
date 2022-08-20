@@ -3,7 +3,7 @@ const cartArray = [];
 
 
 function display(cartProduct){
-   let totalPrice =0;
+   let totalPrice = 0;
    //console.log(cartProduct);
    const tableBody = document.getElementById("cart-products");
    tableBody.innerHTML = '';
@@ -20,7 +20,7 @@ function display(cartProduct){
       const tr = document.createElement('tr')
 
       tr.innerHTML = `
-        <th>${i + 1}</th>
+        <td>${i + 1}</td>
         <td>${name}</td>
         <td>${price}</td>    
       
