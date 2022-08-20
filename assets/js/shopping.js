@@ -20,7 +20,7 @@ function display(cartProduct){
       const tr = document.createElement('tr')
 
       tr.innerHTML = `
-        <td>${i + 1}</td>
+        <td >${i + 1}</td>
         <td>${name}</td>
         <td>${price}</td>    
       
